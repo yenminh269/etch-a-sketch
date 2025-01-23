@@ -1,0 +1,24 @@
+* {
+    margin:0;
+    padding: 0;
+    border: red solid;
+    background-color: #34495e;
+}
+body {
+    display: flex;
+    justify-content: center;
+    padding:  0px;
+}
+#container {
+    width: 864px;
+    height: 864px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.hovered {
+    background-color: aqua;
+}
+.unhovered {
+    background-color: aqua;
+}
